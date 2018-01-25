@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4110371920199D80006B6BB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110371820199D80006B6BB2 /* AppDelegate.m */; };
+		4110371F20199D80006B6BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4110371D20199D80006B6BB2 /* Main.storyboard */; };
+		4110372120199D80006B6BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4110372020199D80006B6BB2 /* Assets.xcassets */; };
+		4110372420199D80006B6BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4110372220199D80006B6BB2 /* LaunchScreen.storyboard */; };
+		4110372720199D80006B6BB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110372620199D80006B6BB2 /* main.m */; };
+		4110373120199D80006B6BB2 /* MultiImagePickerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110373020199D80006B6BB2 /* MultiImagePickerExampleTests.m */; };
+		4110373C20199D80006B6BB2 /* MultiImagePickerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110373B20199D80006B6BB2 /* MultiImagePickerExampleUITests.m */; };
+		4110376020199DF5006B6BB2 /* MultiImagePickerLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110374A20199DF2006B6BB2 /* MultiImagePickerLayout.m */; };
+		4110376120199DF5006B6BB2 /* MultiImageAllBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110374D20199DF2006B6BB2 /* MultiImageAllBrowserController.m */; };
+		4110376220199DF5006B6BB2 /* MultiAlbumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375020199DF3006B6BB2 /* MultiAlbumController.m */; };
+		4110376420199DF5006B6BB2 /* MultiImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375320199DF3006B6BB2 /* MultiImageScrollView.m */; };
+		4110376520199DF5006B6BB2 /* MultiImagePiackCameraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375420199DF3006B6BB2 /* MultiImagePiackCameraCell.m */; };
+		4110376620199DF5006B6BB2 /* MultiImageBrowserCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375620199DF3006B6BB2 /* MultiImageBrowserCollectionCell.m */; };
+		4110376720199DF5006B6BB2 /* MultiImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375820199DF4006B6BB2 /* MultiImagePickerController.m */; };
+		4110376820199DF5006B6BB2 /* MultilmagePickerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375B20199DF4006B6BB2 /* MultilmagePickerCollectionCell.m */; };
+		4110376920199DF5006B6BB2 /* PHAsset+MultiSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375C20199DF4006B6BB2 /* PHAsset+MultiSelect.m */; };
+		4110376A20199DF5006B6BB2 /* MultiImageSelectedBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4110375E20199DF4006B6BB2 /* MultiImageSelectedBrowserController.m */; };
+		4110377320199E07006B6BB2 /* multi_image_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110376B20199E05006B6BB2 /* multi_image_unchecked@2x.png */; };
+		4110377420199E07006B6BB2 /* multi_image_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110376C20199E05006B6BB2 /* multi_image_placeholder@2x.png */; };
+		4110377520199E07006B6BB2 /* multi_image_unchecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110376D20199E06006B6BB2 /* multi_image_unchecked@3x.png */; };
+		4110377620199E07006B6BB2 /* multi_image_placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110376E20199E06006B6BB2 /* multi_image_placeholder@3x.png */; };
+		4110377720199E07006B6BB2 /* multi_image_checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110376F20199E06006B6BB2 /* multi_image_checked@3x.png */; };
+		4110377820199E07006B6BB2 /* multi_image_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110377020199E06006B6BB2 /* multi_image_checked@2x.png */; };
+		4110377920199E07006B6BB2 /* multi_image_camera@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110377120199E06006B6BB2 /* multi_image_camera@3x.png */; };
+		4110377A20199E07006B6BB2 /* multi_image_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4110377220199E07006B6BB2 /* multi_image_camera@2x.png */; };
+		4110377E20199E49006B6BB2 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4110377D20199E49006B6BB2 /* Photos.framework */; };
+		411037832019A0CD006B6BB2 /* SendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411037802019A0CC006B6BB2 /* SendTableViewController.m */; };
+		411037842019A0CD006B6BB2 /* SendCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 411037822019A0CC006B6BB2 /* SendCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4110372D20199D80006B6BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4110370C20199D80006B6BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4110371320199D80006B6BB2;
+			remoteInfo = MultiImagePickerExample;
+		};
+		4110373820199D80006B6BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4110370C20199D80006B6BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4110371320199D80006B6BB2;
+			remoteInfo = MultiImagePickerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4110371420199D80006B6BB2 /* MultiImagePickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiImagePickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4110371720199D80006B6BB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4110371820199D80006B6BB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4110371E20199D80006B6BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4110372020199D80006B6BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4110372320199D80006B6BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4110372520199D80006B6BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4110372620199D80006B6BB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4110372C20199D80006B6BB2 /* MultiImagePickerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiImagePickerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4110373020199D80006B6BB2 /* MultiImagePickerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiImagePickerExampleTests.m; sourceTree = "<group>"; };
+		4110373220199D80006B6BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4110373720199D80006B6BB2 /* MultiImagePickerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiImagePickerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4110373B20199D80006B6BB2 /* MultiImagePickerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiImagePickerExampleUITests.m; sourceTree = "<group>"; };
+		4110373D20199D80006B6BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4110374A20199DF2006B6BB2 /* MultiImagePickerLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImagePickerLayout.m; sourceTree = "<group>"; };
+		4110374B20199DF2006B6BB2 /* MultiImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImagePickerController.h; sourceTree = "<group>"; };
+		4110374C20199DF2006B6BB2 /* MultilmagePickerCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilmagePickerCollectionCell.h; sourceTree = "<group>"; };
+		4110374D20199DF2006B6BB2 /* MultiImageAllBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImageAllBrowserController.m; sourceTree = "<group>"; };
+		4110374E20199DF2006B6BB2 /* MultiImageAllBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImageAllBrowserController.h; sourceTree = "<group>"; };
+		4110374F20199DF2006B6BB2 /* PHAsset+MultiSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+MultiSelect.h"; sourceTree = "<group>"; };
+		4110375020199DF3006B6BB2 /* MultiAlbumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiAlbumController.m; sourceTree = "<group>"; };
+		4110375120199DF3006B6BB2 /* MultiImageSelectedBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImageSelectedBrowserController.h; sourceTree = "<group>"; };
+		4110375320199DF3006B6BB2 /* MultiImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImageScrollView.m; sourceTree = "<group>"; };
+		4110375420199DF3006B6BB2 /* MultiImagePiackCameraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImagePiackCameraCell.m; sourceTree = "<group>"; };
+		4110375520199DF3006B6BB2 /* MultiAlbumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiAlbumController.h; sourceTree = "<group>"; };
+		4110375620199DF3006B6BB2 /* MultiImageBrowserCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImageBrowserCollectionCell.m; sourceTree = "<group>"; };
+		4110375720199DF3006B6BB2 /* MultiImagePiackCameraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImagePiackCameraCell.h; sourceTree = "<group>"; };
+		4110375820199DF4006B6BB2 /* MultiImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImagePickerController.m; sourceTree = "<group>"; };
+		4110375920199DF4006B6BB2 /* MultiImagePickerLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImagePickerLayout.h; sourceTree = "<group>"; };
+		4110375A20199DF4006B6BB2 /* MultiImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImageScrollView.h; sourceTree = "<group>"; };
+		4110375B20199DF4006B6BB2 /* MultilmagePickerCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilmagePickerCollectionCell.m; sourceTree = "<group>"; };
+		4110375C20199DF4006B6BB2 /* PHAsset+MultiSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+MultiSelect.m"; sourceTree = "<group>"; };
+		4110375D20199DF4006B6BB2 /* MultiImageBrowserCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiImageBrowserCollectionCell.h; sourceTree = "<group>"; };
+		4110375E20199DF4006B6BB2 /* MultiImageSelectedBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiImageSelectedBrowserController.m; sourceTree = "<group>"; };
+		4110375F20199DF4006B6BB2 /* MultiConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiConstant.h; sourceTree = "<group>"; };
+		4110376B20199E05006B6BB2 /* multi_image_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_unchecked@2x.png"; sourceTree = "<group>"; };
+		4110376C20199E05006B6BB2 /* multi_image_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_placeholder@2x.png"; sourceTree = "<group>"; };
+		4110376D20199E06006B6BB2 /* multi_image_unchecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_unchecked@3x.png"; sourceTree = "<group>"; };
+		4110376E20199E06006B6BB2 /* multi_image_placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_placeholder@3x.png"; sourceTree = "<group>"; };
+		4110376F20199E06006B6BB2 /* multi_image_checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_checked@3x.png"; sourceTree = "<group>"; };
+		4110377020199E06006B6BB2 /* multi_image_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_checked@2x.png"; sourceTree = "<group>"; };
+		4110377120199E06006B6BB2 /* multi_image_camera@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_camera@3x.png"; sourceTree = "<group>"; };
+		4110377220199E07006B6BB2 /* multi_image_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "multi_image_camera@2x.png"; sourceTree = "<group>"; };
+		4110377D20199E49006B6BB2 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		4110377F2019A0CC006B6BB2 /* SendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendTableViewController.h; sourceTree = "<group>"; };
+		411037802019A0CC006B6BB2 /* SendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendTableViewController.m; sourceTree = "<group>"; };
+		411037812019A0CC006B6BB2 /* SendCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendCollectionViewCell.h; sourceTree = "<group>"; };
+		411037822019A0CC006B6BB2 /* SendCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4110371120199D80006B6BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110377E20199E49006B6BB2 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4110372920199D80006B6BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4110373420199D80006B6BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4110370B20199D80006B6BB2 = {
+			isa = PBXGroup;
+			children = (
+				4110371620199D80006B6BB2 /* MultiImagePickerExample */,
+				4110372F20199D80006B6BB2 /* MultiImagePickerExampleTests */,
+				4110373A20199D80006B6BB2 /* MultiImagePickerExampleUITests */,
+				4110371520199D80006B6BB2 /* Products */,
+				4110377C20199E49006B6BB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4110371520199D80006B6BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4110371420199D80006B6BB2 /* MultiImagePickerExample.app */,
+				4110372C20199D80006B6BB2 /* MultiImagePickerExampleTests.xctest */,
+				4110373720199D80006B6BB2 /* MultiImagePickerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4110371620199D80006B6BB2 /* MultiImagePickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				4110374920199DC8006B6BB2 /* MultiImagePicker */,
+				4110371720199D80006B6BB2 /* AppDelegate.h */,
+				4110371820199D80006B6BB2 /* AppDelegate.m */,
+				411037812019A0CC006B6BB2 /* SendCollectionViewCell.h */,
+				411037822019A0CC006B6BB2 /* SendCollectionViewCell.m */,
+				4110377F2019A0CC006B6BB2 /* SendTableViewController.h */,
+				411037802019A0CC006B6BB2 /* SendTableViewController.m */,
+				4110371D20199D80006B6BB2 /* Main.storyboard */,
+				4110372020199D80006B6BB2 /* Assets.xcassets */,
+				4110372220199D80006B6BB2 /* LaunchScreen.storyboard */,
+				4110372520199D80006B6BB2 /* Info.plist */,
+				4110372620199D80006B6BB2 /* main.m */,
+			);
+			path = MultiImagePickerExample;
+			sourceTree = "<group>";
+		};
+		4110372F20199D80006B6BB2 /* MultiImagePickerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4110373020199D80006B6BB2 /* MultiImagePickerExampleTests.m */,
+				4110373220199D80006B6BB2 /* Info.plist */,
+			);
+			path = MultiImagePickerExampleTests;
+			sourceTree = "<group>";
+		};
+		4110373A20199D80006B6BB2 /* MultiImagePickerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4110373B20199D80006B6BB2 /* MultiImagePickerExampleUITests.m */,
+				4110373D20199D80006B6BB2 /* Info.plist */,
+			);
+			path = MultiImagePickerExampleUITests;
+			sourceTree = "<group>";
+		};
+		4110374920199DC8006B6BB2 /* MultiImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4110377B20199E0D006B6BB2 /* res */,
+				4110375F20199DF4006B6BB2 /* MultiConstant.h */,
+				4110375520199DF3006B6BB2 /* MultiAlbumController.h */,
+				4110375020199DF3006B6BB2 /* MultiAlbumController.m */,
+				4110374E20199DF2006B6BB2 /* MultiImageAllBrowserController.h */,
+				4110374D20199DF2006B6BB2 /* MultiImageAllBrowserController.m */,
+				4110375D20199DF4006B6BB2 /* MultiImageBrowserCollectionCell.h */,
+				4110375620199DF3006B6BB2 /* MultiImageBrowserCollectionCell.m */,
+				4110375720199DF3006B6BB2 /* MultiImagePiackCameraCell.h */,
+				4110375420199DF3006B6BB2 /* MultiImagePiackCameraCell.m */,
+				4110374B20199DF2006B6BB2 /* MultiImagePickerController.h */,
+				4110375820199DF4006B6BB2 /* MultiImagePickerController.m */,
+				4110375920199DF4006B6BB2 /* MultiImagePickerLayout.h */,
+				4110374A20199DF2006B6BB2 /* MultiImagePickerLayout.m */,
+				4110375A20199DF4006B6BB2 /* MultiImageScrollView.h */,
+				4110375320199DF3006B6BB2 /* MultiImageScrollView.m */,
+				4110375120199DF3006B6BB2 /* MultiImageSelectedBrowserController.h */,
+				4110375E20199DF4006B6BB2 /* MultiImageSelectedBrowserController.m */,
+				4110374C20199DF2006B6BB2 /* MultilmagePickerCollectionCell.h */,
+				4110375B20199DF4006B6BB2 /* MultilmagePickerCollectionCell.m */,
+				4110374F20199DF2006B6BB2 /* PHAsset+MultiSelect.h */,
+				4110375C20199DF4006B6BB2 /* PHAsset+MultiSelect.m */,
+			);
+			path = MultiImagePicker;
+			sourceTree = "<group>";
+		};
+		4110377B20199E0D006B6BB2 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				4110377220199E07006B6BB2 /* multi_image_camera@2x.png */,
+				4110377120199E06006B6BB2 /* multi_image_camera@3x.png */,
+				4110377020199E06006B6BB2 /* multi_image_checked@2x.png */,
+				4110376F20199E06006B6BB2 /* multi_image_checked@3x.png */,
+				4110376C20199E05006B6BB2 /* multi_image_placeholder@2x.png */,
+				4110376E20199E06006B6BB2 /* multi_image_placeholder@3x.png */,
+				4110376B20199E05006B6BB2 /* multi_image_unchecked@2x.png */,
+				4110376D20199E06006B6BB2 /* multi_image_unchecked@3x.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		4110377C20199E49006B6BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4110377D20199E49006B6BB2 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4110371320199D80006B6BB2 /* MultiImagePickerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4110374020199D80006B6BB2 /* Build configuration list for PBXNativeTarget "MultiImagePickerExample" */;
+			buildPhases = (
+				4110371020199D80006B6BB2 /* Sources */,
+				4110371120199D80006B6BB2 /* Frameworks */,
+				4110371220199D80006B6BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiImagePickerExample;
+			productName = MultiImagePickerExample;
+			productReference = 4110371420199D80006B6BB2 /* MultiImagePickerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4110372B20199D80006B6BB2 /* MultiImagePickerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4110374320199D80006B6BB2 /* Build configuration list for PBXNativeTarget "MultiImagePickerExampleTests" */;
+			buildPhases = (
+				4110372820199D80006B6BB2 /* Sources */,
+				4110372920199D80006B6BB2 /* Frameworks */,
+				4110372A20199D80006B6BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4110372E20199D80006B6BB2 /* PBXTargetDependency */,
+			);
+			name = MultiImagePickerExampleTests;
+			productName = MultiImagePickerExampleTests;
+			productReference = 4110372C20199D80006B6BB2 /* MultiImagePickerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4110373620199D80006B6BB2 /* MultiImagePickerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4110374620199D80006B6BB2 /* Build configuration list for PBXNativeTarget "MultiImagePickerExampleUITests" */;
+			buildPhases = (
+				4110373320199D80006B6BB2 /* Sources */,
+				4110373420199D80006B6BB2 /* Frameworks */,
+				4110373520199D80006B6BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4110373920199D80006B6BB2 /* PBXTargetDependency */,
+			);
+			name = MultiImagePickerExampleUITests;
+			productName = MultiImagePickerExampleUITests;
+			productReference = 4110373720199D80006B6BB2 /* MultiImagePickerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4110370C20199D80006B6BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = personal;
+				TargetAttributes = {
+					4110371320199D80006B6BB2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4110372B20199D80006B6BB2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4110371320199D80006B6BB2;
+					};
+					4110373620199D80006B6BB2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4110371320199D80006B6BB2;
+					};
+				};
+			};
+			buildConfigurationList = 4110370F20199D80006B6BB2 /* Build configuration list for PBXProject "MultiImagePickerExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4110370B20199D80006B6BB2;
+			productRefGroup = 4110371520199D80006B6BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4110371320199D80006B6BB2 /* MultiImagePickerExample */,
+				4110372B20199D80006B6BB2 /* MultiImagePickerExampleTests */,
+				4110373620199D80006B6BB2 /* MultiImagePickerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4110371220199D80006B6BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110377920199E07006B6BB2 /* multi_image_camera@3x.png in Resources */,
+				4110372420199D80006B6BB2 /* LaunchScreen.storyboard in Resources */,
+				4110372120199D80006B6BB2 /* Assets.xcassets in Resources */,
+				4110371F20199D80006B6BB2 /* Main.storyboard in Resources */,
+				4110377720199E07006B6BB2 /* multi_image_checked@3x.png in Resources */,
+				4110377420199E07006B6BB2 /* multi_image_placeholder@2x.png in Resources */,
+				4110377520199E07006B6BB2 /* multi_image_unchecked@3x.png in Resources */,
+				4110377620199E07006B6BB2 /* multi_image_placeholder@3x.png in Resources */,
+				4110377820199E07006B6BB2 /* multi_image_checked@2x.png in Resources */,
+				4110377A20199E07006B6BB2 /* multi_image_camera@2x.png in Resources */,
+				4110377320199E07006B6BB2 /* multi_image_unchecked@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4110372A20199D80006B6BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4110373520199D80006B6BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4110371020199D80006B6BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110376920199DF5006B6BB2 /* PHAsset+MultiSelect.m in Sources */,
+				4110376420199DF5006B6BB2 /* MultiImageScrollView.m in Sources */,
+				411037842019A0CD006B6BB2 /* SendCollectionViewCell.m in Sources */,
+				4110376120199DF5006B6BB2 /* MultiImageAllBrowserController.m in Sources */,
+				4110376720199DF5006B6BB2 /* MultiImagePickerController.m in Sources */,
+				4110376A20199DF5006B6BB2 /* MultiImageSelectedBrowserController.m in Sources */,
+				411037832019A0CD006B6BB2 /* SendTableViewController.m in Sources */,
+				4110376820199DF5006B6BB2 /* MultilmagePickerCollectionCell.m in Sources */,
+				4110376020199DF5006B6BB2 /* MultiImagePickerLayout.m in Sources */,
+				4110372720199D80006B6BB2 /* main.m in Sources */,
+				4110371920199D80006B6BB2 /* AppDelegate.m in Sources */,
+				4110376220199DF5006B6BB2 /* MultiAlbumController.m in Sources */,
+				4110376620199DF5006B6BB2 /* MultiImageBrowserCollectionCell.m in Sources */,
+				4110376520199DF5006B6BB2 /* MultiImagePiackCameraCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4110372820199D80006B6BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110373120199D80006B6BB2 /* MultiImagePickerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4110373320199D80006B6BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4110373C20199D80006B6BB2 /* MultiImagePickerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4110372E20199D80006B6BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4110371320199D80006B6BB2 /* MultiImagePickerExample */;
+			targetProxy = 4110372D20199D80006B6BB2 /* PBXContainerItemProxy */;
+		};
+		4110373920199D80006B6BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4110371320199D80006B6BB2 /* MultiImagePickerExample */;
+			targetProxy = 4110373820199D80006B6BB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4110371D20199D80006B6BB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4110371E20199D80006B6BB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4110372220199D80006B6BB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4110372320199D80006B6BB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4110373E20199D80006B6BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4110373F20199D80006B6BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4110374120199D80006B6BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLHNY52CZE;
+				INFOPLIST_FILE = MultiImagePickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuhao.MultiImagePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4110374220199D80006B6BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLHNY52CZE;
+				INFOPLIST_FILE = MultiImagePickerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuhao.MultiImagePickerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4110374420199D80006B6BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLHNY52CZE;
+				INFOPLIST_FILE = MultiImagePickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuhao.MultiImagePickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiImagePickerExample.app/MultiImagePickerExample";
+			};
+			name = Debug;
+		};
+		4110374520199D80006B6BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLHNY52CZE;
+				INFOPLIST_FILE = MultiImagePickerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuhao.MultiImagePickerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiImagePickerExample.app/MultiImagePickerExample";
+			};
+			name = Release;
+		};
+		4110374720199D80006B6BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLHNY52CZE;
+				INFOPLIST_FILE = MultiImagePickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuhao.MultiImagePickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiImagePickerExample;
+			};
+			name = Debug;
+		};
+		4110374820199D80006B6BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WLHNY52CZE;
+				INFOPLIST_FILE = MultiImagePickerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuhao.MultiImagePickerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiImagePickerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4110370F20199D80006B6BB2 /* Build configuration list for PBXProject "MultiImagePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4110373E20199D80006B6BB2 /* Debug */,
+				4110373F20199D80006B6BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4110374020199D80006B6BB2 /* Build configuration list for PBXNativeTarget "MultiImagePickerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4110374120199D80006B6BB2 /* Debug */,
+				4110374220199D80006B6BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4110374320199D80006B6BB2 /* Build configuration list for PBXNativeTarget "MultiImagePickerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4110374420199D80006B6BB2 /* Debug */,
+				4110374520199D80006B6BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4110374620199D80006B6BB2 /* Build configuration list for PBXNativeTarget "MultiImagePickerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4110374720199D80006B6BB2 /* Debug */,
+				4110374820199D80006B6BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4110370C20199D80006B6BB2 /* Project object */;
+}
